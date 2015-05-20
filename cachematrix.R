@@ -34,3 +34,12 @@ cacheSolve <- function(x, ...) {
 	x$setInv(m) 
 	m 
 }
+# # Test
+# # generate a random square, non-singular matrix
+# test <- matrix(runif(16,1,100),4,4)
+# # generate the makeCacheMatrix object with this matrix
+# testCached <- makeCacheMatrix(test)
+# # from now on calculate or retrieve calculated inversion using the cacheSolve function
+# 
+# testInv <- cacheSolve(testCached)
+# testInv <- cacheSolve(testCached)
